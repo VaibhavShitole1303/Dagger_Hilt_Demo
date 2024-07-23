@@ -8,6 +8,7 @@ androidx-test-ext = "1.2.1"
 espresso-core = "3.6.1"
 hilt = "2.46.1"
 
+
 [libraries]
 androidx-core = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
@@ -18,3 +19,8 @@ androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref =
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+
+
+
+[plugins]
+#androidApplication = { id = "com.android.application", version.ref = "agp" }
