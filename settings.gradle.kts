@@ -11,6 +11,12 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+//    versionCatalogs {
+//        libs {
+//            from(files("gradle/libs.versions.toml"))
+//        }
+//    }
+
 }
 
 rootProject.name = "DraggerHiltDome"
